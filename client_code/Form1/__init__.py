@@ -12,6 +12,14 @@ class Form1(Form1Template):
         self.init_components(**properties)
         # Set the event handler for the Enter key press event
         self.url_textbox.set_event_handler('pressed_enter', self.url_textbox_pressed_enter)
+        # Check if the server is running
+        if 
+       
+      
+      85awaqqqaqanvil.server.call('test_server') == "Server is running":
+            self.output_label.text = "Server is running"
+        else:
+            self.output_label.text = "Server is not running"
 
     def scrape_button_click(self, **event_args):
         """This method is called when the button is clicked"""
