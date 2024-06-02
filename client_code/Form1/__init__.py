@@ -5,6 +5,8 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.server
 
+anvil.server.connect("client_IQDD4DTLD3NWNH6WVP3VFTL3-JGPJFCSRQRYQCWRU")
+
 class Form1(Form1Template):
 
     def __init__(self, **properties):

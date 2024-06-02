@@ -27,4 +27,5 @@ db_schema:
       admin_ui: {width: 200, order: 2}
       type: string
     title: scraped_data
+uplink_visible: true
 renamed: true
