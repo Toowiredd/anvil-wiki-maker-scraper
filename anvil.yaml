@@ -14,18 +14,18 @@ runtime_options:
 startup_form: Form1
 db_schema:
   scraped_data:
+    title: scraped_data
     client: none
     server: full
     columns:
     - name: url
-      admin_ui: {width: 200, order: 0}
+      admin_ui: {width: 200}
       type: string
     - name: title
-      admin_ui: {order: 1, width: 200}
+      admin_ui: {width: 200}
       type: string
     - name: content
-      admin_ui: {width: 200, order: 2}
+      admin_ui: {width: 200}
       type: string
-    title: scraped_data
 uplink_visible: true
 renamed: true

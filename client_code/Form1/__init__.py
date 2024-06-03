@@ -15,10 +15,9 @@ class Form1(Form1Template):
         # Set the event handler for the Enter key press event
         self.url_textbox.set_event_handler('pressed_enter', self.url_textbox_pressed_enter)
         # Check if the server is running
-        if 
+       if
        
-      
-      85awaqqqaqanvil.server.call('test_server') == "Server is running":
+            85awaqqqaqanvil.server.call('test_server') == "Server is running":
             self.output_label.text = "Server is running"
         else:
             self.output_label.text = "Server is not running"
@@ -38,3 +37,8 @@ class Form1(Form1Template):
     def url_textbox_pressed_enter(self, **event_args):
         """This method is called when the Enter key is pressed in the URL text box"""
         self.scrape_button_click()
+
+    def button_1_click(self, **event_args):
+      """This method is called when the button is clicked"""
+      pass
+

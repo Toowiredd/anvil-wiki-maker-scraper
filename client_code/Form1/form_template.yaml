@@ -24,7 +24,23 @@ components:
     properties: {text: status will be displayed here}
     type: Label
     layout_properties: {grid_position: 'LUBOAY,CJQIOM'}
+  - type: Button
+    properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: Say Hello, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: button_1
+    layout_properties: {grid_position: 'DITOAU,WUQDIN'}
+    event_bindings: {click: button_1_click}
+  - type: TextBox
+    properties: {}
+    name: text_box_1
+    layout_properties: {grid_position: 'ECXYZN,LUVFNR'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- type: Button
+  properties: {text: button_2}
+  name: button_2
+  layout_properties: {slot: title}
