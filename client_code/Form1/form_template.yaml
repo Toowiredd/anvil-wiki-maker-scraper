@@ -9,7 +9,7 @@ components:
   layout_properties: {slot: default}
   components:
   - name: scrape_button
-    properties: {text: Scrape, role: outlined-button}
+    properties: {role: outlined-button, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: say hello}
     type: Button
     layout_properties: {grid_position: 'CXXFTS,LXRBRC'}
     data_bindings:
@@ -25,10 +25,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'LUBOAY,CJQIOM'}
   - type: Button
-    properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
-      foreground: '', visible: true, text: Say Hello, font_size: null, font: '', spacing_above: small,
-      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-      underline: false, icon: ''}
+    properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: Say Hello}
     name: button_1
     layout_properties: {grid_position: 'DITOAU,WUQDIN'}
     event_bindings: {click: button_1_click}
